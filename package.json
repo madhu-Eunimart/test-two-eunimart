@@ -1,0 +1,19 @@
+{
+  "name": "test-two-eunimart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhu-Eunimart/test-two-eunimart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhu-Eunimart/test-two-eunimart/issues"
+  },
+  "homepage": "https://github.com/madhu-Eunimart/test-two-eunimart#readme"
+}
