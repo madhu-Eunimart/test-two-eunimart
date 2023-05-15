@@ -1,0 +1,26 @@
+28 error Error: Command failed with exit code 243: npm install --package-lock-only --ignore-scripts
+28 error npm ERR! code EACCES
+28 error npm ERR! syscall unlink
+28 error npm ERR! path /home/madhu/Desktop/test-two/test-two-eunimart/node_modules/.package-lock.json
+28 error npm ERR! errno -13
+28 error npm ERR! Error: EACCES: permission denied, unlink '/home/madhu/Desktop/test-two/test-two-eunimart/node_modules/.package-lock.json'
+28 error npm ERR!  [Error: EACCES: permission denied, unlink '/home/madhu/Desktop/test-two/test-two-eunimart/node_modules/.package-lock.json'] {
+28 error npm ERR!   errno: -13,
+28 error npm ERR!   code: 'EACCES',
+28 error npm ERR!   syscall: 'unlink',
+28 error npm ERR!   path: '/home/madhu/Desktop/test-two/test-two-eunimart/node_modules/.package-lock.json'
+28 error npm ERR! }
+28 error npm ERR!
+28 error npm ERR! The operation was rejected by your operating system.
+28 error npm ERR! It is likely you do not have the permissions to access this file as the current user
+28 error npm ERR!
+28 error npm ERR! If you believe this might be a permissions issue, please double-check the
+28 error npm ERR! permissions of the file and its containing directories, or try running
+28 error npm ERR! the command again as root/Administrator.
+28 error
+28 error npm ERR! A complete log of this run can be found in:
+28 error npm ERR!     /home/madhu/.npm/_logs/2023-05-15T16_13_33_800Z-debug-0.log
+28 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+28 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
+28 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28 error     at async Promise.all (index 0)
