@@ -2,5 +2,5 @@
 module.exports = myNewTestCase;
 
 function myNewTestCase() {
-  return 'Hello from myNewTestCase';
+  return 'test case 5';
 }
