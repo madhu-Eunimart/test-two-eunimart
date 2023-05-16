@@ -1,5 +1,5 @@
 'use strict';
-import HelloWorld from "../src";
+import HelloWorld from "../src/dist";
 module.exports = myNewTestCase;
 
 function myNewTestCase() {

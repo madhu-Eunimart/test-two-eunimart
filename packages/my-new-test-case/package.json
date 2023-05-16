@@ -18,7 +18,8 @@
     "url": "git+https://github.com/madhu-Eunimart/test-two-eunimart.git"
   },
   "scripts": {
-    "test": "node ./__tests__/my-new-test-case.test.js"
+    "test": "node ./__tests__/my-new-test-case.test.js",
+    "build":"babel src -d dist"
   },
   "bugs": {
     "url": "https://github.com/madhu-Eunimart/test-two-eunimart/issues"
