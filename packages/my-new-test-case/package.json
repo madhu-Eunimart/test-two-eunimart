@@ -5,7 +5,7 @@
   "author": "madhu-Eunimart <madhu.varma@eunimar.com>",
   "homepage": "https://github.com/madhu-Eunimart/test-two-eunimart/tree/main/packages/my-new-test-case#readme",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "lib/my-new-test-case.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
