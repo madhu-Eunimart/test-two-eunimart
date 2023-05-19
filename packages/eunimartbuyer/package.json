@@ -1,6 +1,6 @@
 {
   "name": "eunimartbuyer",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "madhu-Eunimart <madhu.varma@eunimar.com>",
   "homepage": "https://github.com/madhu-Eunimart/test-two-eunimart/tree/main/packages/eunimartbuyer#readme",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "node ./__tests__/eunimartbuyer.test.js",
-    "build": "babel lib"
+    "build": "babel src -d dist"
   },
   "bugs": {
     "url": "https://github.com/madhu-Eunimart/test-two-eunimart/issues"
