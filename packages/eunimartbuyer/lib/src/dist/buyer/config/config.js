@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import bapRoutes from '../../router.js'
-import Authentication from '../../dist/auth/auth.js';
+import Authentication from '../../auth/auth.js';
 import dbConnect from '../../shared/database/mongooseConnector.js';
 const router = new Router();
 
