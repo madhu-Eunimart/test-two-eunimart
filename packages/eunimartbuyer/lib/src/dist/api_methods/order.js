@@ -1,7 +1,8 @@
 import axios from "axios";
 import Authentication from "../auth/auth.js";
 import { Configuration,routes } from "../buyer/config/config.js";
-import { SearchRequest,SelectRequest,InitRequest,ConfirmRequest } from "../payloads/payloads.js";
+import { SearchRequest,SelectRequest,InitRequest,ConfirmRequest,TrackRequest,StatusRequest,SupportRequest,CancelRequest,UpdateRequest } from "../payloads/payloads.js";
+import { pause } from "npmlog";
 class Order{
   constructor(key_id,secret_key){
     this.key_id=key_id
@@ -73,7 +74,8 @@ async Confirm(payload,callback){
 }
 async Update(payload,callback){
   if(Authentication(`${this.key_id}`,`${this.secret_key}`)){
-  await axios.post(routes.update, payload,
+    var data=UpdateRequest(payload)
+  await axios.post(routes.update, data,
   {
     // headers:{
     //   Authorization: Configuration?.TOKEN
@@ -89,7 +91,8 @@ async Update(payload,callback){
 }
 async Status(payload,callback){
   if(Authentication(`${this.key_id}`,`${this.secret_key}`)){
-  await axios.post(routes.status, payload,
+    var data= StatusRequest(payload)
+  await axios.post(routes.status, data,
   {
     // headers:{
     //   Authorization: Configuration?.TOKEN
