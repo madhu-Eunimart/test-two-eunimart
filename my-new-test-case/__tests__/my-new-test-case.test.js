@@ -1,6 +1,6 @@
 'use strict';
 
-const myNewTestCase = require('..');
+const myNewTestCase = require('../../my-new-test-case');
 const assert = require('assert').strict;
 
 assert.strictEqual(myNewTestCase(), 'Hello from myNewTestCase');
