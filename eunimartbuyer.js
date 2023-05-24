@@ -1,4 +1,4 @@
-import { Config } from "./src/dist/buyer/config/config.js";
+import { Config } from "./src copy/dist/buyer/config/config.js";
 import dotenv from 'dotenv'
 import { eventEmitter } from "./src/dist/emitter/emitter.js";
 import Order from "./src/dist/api_methods/order.js";
